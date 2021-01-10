@@ -1,37 +1,119 @@
 body {
     margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-size: 3em;
     text-align: center;
     margin: 0;
-    border-bottom: 1px solid rgba(100, 100, 100, 50%);
+    padding: 0;
+    border-bottom: 1px solid rgba(135, 188, 224, 0.5);
+}
+
+h1:hover {
+    text-transform: lowercase;
+    font-family:  "Didot";
+    color: #fff;
+    background-color: rgb(66, 186, 202);
+    padding: 0 10px;
+    transition: 0.3s;
+    border-bottom: none;
 }
 
 h2 {
     margin: 0;
 }
 
-#grid ul {
+.hong {
+    color: rgb(44, 149, 219);
+}
+
+.hong:hover {
+    padding: 0 5px;
+    background-color: rgb(32, 114, 168);
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(244, 255, 254);
+    font: 1.5em "Didot";
+    transition: 0.3s;
+}
+
+.jo {
+    color: rgb(238, 127, 173);
+}
+
+.jo:hover {
+    padding: 0 5px;
+    background-color: rgb(182, 39, 98);
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(244, 255, 254);
+    font: 1.5em "Didot";
+    transition: 0.3s;
+}
+
+.bae {
+    color: rgb(86, 209, 112);
+}
+
+.bae:hover {
+    padding: 0 5px;
+    background-color: rgb(41, 161, 67);
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(244, 255, 254);
+    font: 1.5em "Didot";
+    transition: 0.3s;
+}
+
+#grid ul{
     list-style: none;
     width: 150px;
-    padding: 0.5em 0 0 0.5em;
+    padding: 0 0 0.5em 0;
     margin: 1em 0 1em 0;
     border-right: 1px solid rgba(100, 100, 100, 50%);
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    padding: 5px 0;
+}
+
+h2:hover {
+    color: #fff;
+    background-color: rgba(32, 114, 168, 0.8);
+    transition: 0.3s;
+    margin: 0 0 10px 0;
+    padding: 5px 0;
 }
 
 .view {
     padding: 1em 0 1em 0;
 }
 
+.hongjiaimg {
+    box-shadow: 5px 5px 10px rgba(32, 114, 168, 0.4);
+}
+
+.hongjiaimg:hover {
+    width: 350px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgba(32, 114, 168, 0.7);
+}
+
 #grid {
+    padding: 30px 0 30px 0;
     display: grid;
     grid-template-columns: 180px 1fr;
+
+    background-color: rgb(237, 251, 253);
 }
 
 @media(max-width:800px){
