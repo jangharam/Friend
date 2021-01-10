@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(255, 254, 227);
+}
+
+.back {
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+a  {
+    text-decoration: none;  
+}
+
+h1 {
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+.friend {
+    color: rgb(39, 39, 39, 0.8);
+
+}
+
+.friend:hover {
+    background-color: rgb(60, 71, 23);
+    text-transform: lowercase;
+    font: 1.5em "Didot";
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+    transition: 0.1s;
+}
+
+ul {
+    padding: 0;
+    margin: 1.5em 0 0 0;
+}
+
+.hong {
+    color: rgb(44, 149, 219);
+}
+
+.hong:hover {
+    padding: 0 5px;
+    background-color: rgb(32, 114, 168);
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(244, 255, 254);
+    font: 1.5em "Didot";
+    transition: 0.1s;
+}
+
+.jo {
+    color: rgb(238, 127, 173);
+}
+
+.jo:hover {
+    padding: 0 5px;
+    background-color: rgb(182, 39, 98);
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(244, 255, 254);
+    font: 1.5em "Didot";
+    transition: 0.1s;
+}
+
+.bae {
+    color: rgb(86, 209, 112);
+}
+
+.bae:hover {
+    padding: 0 5px;
+    background-color: rgb(41, 161, 67);
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(244, 255, 254);
+    font: 1.5em "Didot";
+    transition: 0.1s;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
